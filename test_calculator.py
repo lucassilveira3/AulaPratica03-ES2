@@ -30,6 +30,6 @@ class TestMemoryCalculator(unittest.TestCase):
     calculator.add(5)
     calculator._save_last_sum = True
     calculator.sum()
-    calculator.add(3)
+    calculator.add(5)
     self.assertEqual(7, calculator.last_sum)
     
